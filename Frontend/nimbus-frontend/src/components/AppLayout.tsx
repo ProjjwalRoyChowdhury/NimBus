@@ -11,7 +11,7 @@ function AppLayout({children}:props){
             <Topbar />
             <div style={{ display: "flex" }}>
                 <Sidebar />
-                <main style={{ flexGrow: 1, padding: "1rem" }}>{children}</main>
+                <main style={{ flexGrow: 2, padding: "1rem" }}>{children}</main>
             </div>
 
         </div>
